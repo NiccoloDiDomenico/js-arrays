@@ -39,12 +39,12 @@ console.log(firstTeacher);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 teachers.push('Vanessa')
-console.log(teachers[teachers.length -1]);
+console.log(teachers);
 
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 teachers.unshift('Sarah')
-console.log(teachers[0]);
+console.log(teachers);
 
 
 // 7. Verifica se 'Fabio' è presente nell'array teachers
@@ -67,5 +67,5 @@ console.log(teachersString);
 
 // 10. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = teachers.length;
+const isTeachersEmpty = teachers.length === 0;
 console.log(isTeachersEmpty);
